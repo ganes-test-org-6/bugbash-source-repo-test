@@ -1,0 +1,10 @@
+name: Simple Required Workflow
+on: pull_request
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+    - name: Print hello
+      run: |
+        echo "HELLO WORLD"
